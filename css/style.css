@@ -507,17 +507,17 @@ width: 590px;
 	.container{
 	  position: relative;
 	  display: flexbox;
-	  top: 20.7rem;
+	  top: 36.8rem;
     right:11rem;
 	}
-	.containera{
+	.secondcontainer{
 	  position: relative;
 	  display:flexbox;
-	  top: 6.8rem;
-    right: 29rem;
+	  top: 34.2rem;
+    right: 11rem;
 	}
 	form {
-	max-width: 30rem;
+	max-width: 26rem;
 	margin: 4rem auto;
 	text-align: center;
 	}
@@ -538,7 +538,7 @@ width: 590px;
 	margin: 0 auto;
 	padding-top: 1rem;
 	width: 1rem;
-	left: 4.3rem;
+	left: 4.5rem;
 	transform-origin: 50% 100px;
 	}
 	fieldset label:hover {
@@ -546,7 +546,7 @@ width: 590px;
 	}
 	fieldset input {
 	position: absolute;
-	width: 7rem;
+	width: 4rem;
 	left: 7rem;
 	display: block;
 	margin: 1rem auto 0 auto;
@@ -636,10 +636,10 @@ width: 590px;
 	transform: rotateZ(150deg);
 	}
 	input[type=radio]:checked#radio-choice-5 ~ .dial::before {
-	transform: rotateZ(150);
+	transform: rotateZ(150deg);
 	}
 	input[type=radio]:checked#radio-choice-5 ~ .dial::after {
-	transform: rotateZ(150);
+	transform: rotateZ(150deg);
 	}
 	input[type=radio]:checked#radio-choice-6 ~ .dial {
 	transform: rotateZ(180deg);
